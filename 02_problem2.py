@@ -1,5 +1,16 @@
-a = 37
+class Animals:
+    pass 
 
-b = 5
+class Pets(Animals):
+    pass 
 
-print("Remainder when a is divided by b is", a % b)
+class Dog(Pets):
+
+    @staticmethod
+    def bark():
+        print("Bow Bow!")
+
+
+d = Dog()
+
+d.bark()
